@@ -1,0 +1,21 @@
+body {
+    padding-top: 50px;
+}
+
+h3 {
+    white-space: nowrap;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.book-description {
+    height: 120px;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+#book-list {
+    margin-top: 24px;
+}

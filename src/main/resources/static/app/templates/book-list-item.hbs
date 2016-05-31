@@ -1,0 +1,13 @@
+{{#each books}}
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="thumbnail">
+            <div class="caption">
+                <h3 title="{{this.name}}">{{this.name}}</h3>
+                <p class="book-description">{{this.description}}</p>
+                <p>
+                    <span class="badge">{{this.author}}</span>
+                </p>
+            </div>
+        </div>
+    </div>
+{{/each}}
